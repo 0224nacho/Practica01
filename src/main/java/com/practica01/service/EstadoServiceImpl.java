@@ -7,8 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-//Se utiliza la siguiente anotación para que esta clase
-//Pueda utilizarse dentro de un "controller", sin problema
 
 @Service
 public class EstadoServiceImpl implements EstadoService{
